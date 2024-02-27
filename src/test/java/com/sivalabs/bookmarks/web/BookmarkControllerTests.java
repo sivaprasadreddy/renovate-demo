@@ -37,7 +37,7 @@ class BookmarkControllerTests {
     }
 
     @Test
-    void shouldFetchBookmarks() throws Exception {
+    void shouldFetchBookmarks() {
         given().when().get("/api/bookmarks").then().statusCode(200);
     }
 
